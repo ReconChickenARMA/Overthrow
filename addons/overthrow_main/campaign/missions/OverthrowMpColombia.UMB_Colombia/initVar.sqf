@@ -150,8 +150,8 @@ OT_NATO_Vehicles_JetGarrison = [
 ];
 
 if(OT_hasJetsDLC) then {
-	//OT_NATO_Vehicles_JetGarrison pushback ["B_Plane_Fighter_01_F",1];
-	//OT_NATO_Vehicles_JetGarrison pushback ["B_Plane_Fighter_01_Stealth_F",1];
+	OT_NATO_Vehicles_JetGarrison pushback ["B_Plane_Fighter_01_F",1];
+	OT_NATO_Vehicles_JetGarrison pushback ["B_Plane_Fighter_01_Stealth_F",1];
 	OT_NATO_Vehicles_StaticAAGarrison pushback "B_Radar_System_01_F";
 	OT_NATO_Vehicles_StaticAAGarrison pushback "B_SAM_System_03_F";
 };
@@ -216,7 +216,7 @@ OT_CRIM_Weapons = ["rhs_weap_akmn","rhs_weap_aks74u","rhs_weap_akms","rhs_weap_a
 OT_CRIM_Pistols = ["rhs_weap_pya","rhs_weap_cz99_etched","rhsusf_weap_glock17g4","rhsusf_weap_m9"];
 OT_CRIM_Launchers = ["rhs_weap_rpg26","rhs_weap_rpg7","rhs_weap_rpg7","rhs_weap_rpg7"];
 //Progress ends here
-OT_piers = ["Land_Destroyer_01_Boat_Rack_01_F"]; //spawns dudes that sell boats n stuff
+OT_piers = ["Land_ClothShelter_01_F"]; //spawns dudes that sell boats n stuff
 OT_offices = ["Land_MultistoryBuilding_01_F","Land_MultistoryBuilding_04_F"];
 OT_portBuildings = ["Land_Warehouse_01_F","Land_Warehouse_02_F","Land_ContainerLine_01_F","Land_ContainerLine_02_F","Land_ContainerLine_03_F"];
 OT_airportTerminals = ["Land_Airport_01_terminal_F","Land_Airport_02_terminal_F","Land_Hangar_F"];
