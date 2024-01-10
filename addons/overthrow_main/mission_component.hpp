@@ -59,7 +59,8 @@ class Params {
 			"10. 3CB Livonian Defence Force",
 			"11. 3CB Livonia Separatist Militia",
 			"12. 3CB Malden Defence Force",
-			"13. 3CB Middle East Insurgents"
+			"13. 3CB Middle East Insurgents",
+			"14. RHS Colombian Armed Forces"
 		};
 		values[] = {
 			0, // Map default
@@ -75,7 +76,8 @@ class Params {
 			10, // 3CB Livonian Defence Force
 			11, // 3CB Livonia Separatist Militia
 			12, // 3CB Malden Defence Force
-			13 // 3CB Middle East Insurgents
+			13, // 3CB Middle East Insurgents
+			14 // RHS Colombian Armed Force
 		};
 		default = 0;
 	};

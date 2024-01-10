@@ -11,37 +11,37 @@ class CfgGroups {
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
                     class Unit0 {
                         side = 1;
-                        vehicle = "B_W_recon_TL_F";
+                        vehicle = "B_COArmy_Radioperador_WDL_01";
                         rank = "SERGEANT";
                         position[] = {0,0,0};
                     };
                     class Unit1 {
                         side = 1;
-                        vehicle = "B_W_recon_M_F";
+                        vehicle = "B_COArmy_Tirador_WDL_01";
                         rank = "CORPORAL";
                         position[] = {5,-5,0};
                     };
                     class Unit2 {
                         side = 1;
-                        vehicle = "B_W_recon_medic_F";
+                        vehicle = "B_COArmy_Enfermero_WDL_01";
                         rank = "PRIVATE";
                         position[] = {-5,-5,0};
                     };
                     class Unit3 {
                         side = 1;
-                        vehicle = "B_W_recon_LAT_F";
+                        vehicle = "EJC_ejc_rhs_soldado_ath";
                         rank = "CORPORAL";
                         position[] = {10,-10,0};
                     };
                     class Unit4 {
                         side = 1;
-                        vehicle = "B_W_recon_JTAC_F";
+                        vehicle = "B_COArmy_Fusilero_WDL_02";
                         rank = "PRIVATE";
                         position[] = {-10,-10,0};
                     };
                     class Unit5 {
                         side = 1;
-                        vehicle = "B_W_recon_exp_F";
+                        vehicle = "B_COArmy_Ingeniero_Explosivista_WDL_01";
                         rank = "PRIVATE";
                         position[] = {15,-15,0};
                     };
@@ -57,25 +57,25 @@ class CfgGroups {
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     class Unit0 {
                         side = 1;
-                        vehicle = "B_W_soldier_TL_F";
+                        vehicle = "B_COArmy_Radioperador_WDL_01";
                         rank = "SERGEANT";
                         position[] = {0,0,0};
                     };
                     class Unit1 {
                         side = 1;
-                        vehicle = "B_W_engineer_F";
+                        vehicle = "B_COArmy_Ingeniero_Explosivista_WDL_01";
                         rank = "CORPORAL";
                         position[] = {5,-5,0};
                     };
                     class Unit2 {
                         side = 1;
-                        vehicle = "B_W_engineer_F";
+                        vehicle = "B_COArmy_Ingeniero_Explosivista_WDL_01";
                         rank = "PRIVATE";
                         position[] = {-5,-5,0};
                     };
                     class Unit3 {
                         side = 1;
-                        vehicle = "B_W_soldier_repair_F";
+                        vehicle = "B_COArmy_Ingeniero_Explosivista_WDL_01";
                         rank = "PRIVATE";
                         position[] = {10,-5,0};
                     };

@@ -80,13 +80,13 @@ class CfgWeapons {
         scope = 2;
         picture = "\overthrow_main\ui\items\sugar_x_ca.paa";
         displayName = "Sugar";
-        descriptionShort = "The generalized name for sweet, short-chain, soluble carbohydrates, many of which are used in food.";
+        descriptionShort = "The generalized name for sweet, short-chain, soluble carbohydrates, many of which are used in food. Derived from sugarcane.";
         descriptionUse = "";
         class ItemInfo: InventoryItem_Base_F {
             mass = 30;
         };
     };
-	class OT_Grapes: OT_ItemCore {
+	/*class OT_Grapes: OT_ItemCore {
         scope = 2;
         picture = "\overthrow_main\ui\items\cane_x_ca.paa";
         displayName = "Grapes";
@@ -111,6 +111,26 @@ class CfgWeapons {
         picture = "\overthrow_main\ui\items\cane_x_ca.paa";
         displayName = "Olives";
         descriptionShort = "A species of small tree in the family Oleaceae, found in the Mediterranean Basin from Portugal to the Levant, the Arabian Peninsula, and southern Asia as far east as China, as well as the Canary Islands, Mauritius, and Altis.";
+        descriptionUse = "";
+        class ItemInfo: InventoryItem_Base_F {
+            mass = 50;
+        };
+  */
+    class OT_Chocolate: OT_ItemCore {
+        scope = 2;
+        picture = "\overthrow_main\ui\items\cane_x_ca.paa";
+        displayName = "Chocolate";
+        descriptionShort = "Chocolate or cocoa is a food made from roasted and ground cacao seed kernels that is available as a liquid, solid, or paste, either on its own or as a flavoring agent in other foods. Cacao has been consumed in some form since at least the Olmec civilization (19th–11th century BCE), and later Mesoamerican civilizations also consumed chocolate beverages before being introduced to Europe in the 16th century.";
+        descriptionUse = "";
+        class ItemInfo: InventoryItem_Base_F {
+            mass = 50;
+        };
+    };
+  	class OT_Cocoa: OT_ItemCore {
+        scope = 2;
+        picture = "\overthrow_main\ui\items\cane_x_ca.paa";
+        displayName = "Cocoa";
+        descriptionShort = "The cocoa bean (technically cocoa seed) or simply cocoa , is the dried and fully fermented seed of Theobroma cacao, from which cocoa solids (a mixture of nonfat substances) and cocoa butter (the fat) can be extracted. Cocoa beans native to the Mexican pre Colombian territory was extended to Ecuadorian Amazon rainforest are the basis of chocolate and Mesoamerican foods including tejate, an indigenous Mexican drink. ";
         descriptionUse = "";
         class ItemInfo: InventoryItem_Base_F {
             mass = 50;
@@ -169,4 +189,9 @@ class CfgWeapons {
 		ot_craftQuantity = 2;
 		ot_craftRecipe = "[[""OT_Plastic"",1]]";
 	};
+    class ACE_suture : ACE_ItemCore   {
+        ot_craftable = 1;
+        ot_craftQuantity = 10;
+        ot_CraftRecipe = "[[""OT_Plastic"",1]]"
+    }
 };
